@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project is like flikr.com but with additon of some cool animations and some data analysis like there is Barchart which shows the number of photos in each group and a paiChart which shows top 10 photos of a group with its number of comments and views.Thanks to flikr.com for providing its Api's. 
+This project is like flikr.com but with additon of some cool animations,lazyloading and some data analysis like there is Barchart which shows the number of photos in each group and a paiChart which shows top 10 photos of a group with its number of comments and views.Thanks to flikr.com for providing its Api's. 
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
