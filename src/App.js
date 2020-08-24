@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Group from "./components/Group";
 import { Provider } from "react-redux";
 import storeConfig from "./store/configStore";
-import "bootstrap4/dist/css/bootstrap.min.css";
+//import "bootstrap4/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";

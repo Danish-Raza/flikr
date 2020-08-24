@@ -13,7 +13,7 @@ class GroupCard extends Component {
         <Link to={`group/${photo.nsid}`} style={{ color: "black" }}>
           <div className="col-md-6 car group container animated bounceInLeft delay-1s" key={this.props.index}>
             <div className="innerGroup">
-              <div className="d-flex justify-content-center row"><img className="rounded-circle" src={`http://farm${photo.iconfarm}.staticflickr.com/${photo.iconserver}/buddyicons/${photo.nsid}.jpg`} width='70px' height='70px' alt="" /></div>
+              <div className="d-flex justify-content-center row" style={{display:"flex",justifyContent:"center"}}><img className="rounded-circle" src={`http://farm${photo.iconfarm}.staticflickr.com/${photo.iconserver}/buddyicons/${photo.nsid}.jpg`} width='70px' height='70px' alt="" /></div>
               <div className="row d-flex justify-content-center font-weight-bold">
                 <p className="text-center">{photo.name}</p>
               </div>
@@ -24,7 +24,7 @@ class GroupCard extends Component {
               <div className="row" >
                 <div className="groupGallery">
                   <div className="d-flex justify-content-center">
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between" style={{display:"flex",justifyContent:"space-between"}}>
                       <div className="mb-2 mr-2 imgGroup">
                         <img className="img-fluid" src={photos[0]} alt="" width="70px" height="70px" />
                       </div>
@@ -38,7 +38,7 @@ class GroupCard extends Component {
                         <img className="img-fluid" src={photos[3]} alt="" width="70px" height="70px" />
                       </div>
                     </div>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between" style={{display:"flex",justifyContent:"space-between"}}>
                       <div className="mb-2 mr-2 imgGroup">
                         <img className="img-fluid" src={photos[4]} alt="" width="70px" height="70px" />
                       </div>
